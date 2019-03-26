@@ -1,12 +1,12 @@
 ---
-title: "Welcome to Jekyll!"
+title: "TestDoc"
 date: 2017-10-20 08:26:28 -0400
-categories: jekyll update
+categories: 
 ---
 <!DOCTYPE html>
 <html>
 <head>
-	<title> test </title>
+
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({

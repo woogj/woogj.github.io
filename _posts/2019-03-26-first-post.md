@@ -3,7 +3,6 @@ title: "TestDoc"
 date: 2019-03-26 09:55
 categories: 
 ---
-<!DOCTYPE html>
 <html>
 <head>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -15,7 +14,7 @@ categories:
 </script>
 </head>
 <body>
-	<h1> Test Doc </h1> <br />
+	<h1> Test Document </h1> <br />
 	<p> Test document </p>
 </body>
 </html>

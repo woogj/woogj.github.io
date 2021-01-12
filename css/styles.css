@@ -241,6 +241,10 @@ footer {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15)
 }
 
+.large-box {
+
+}
+
 .heading {
     position: relative;
     display: inline-block;
@@ -551,37 +555,60 @@ footer {
 .project {
     position: relative;
     max-width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 5px auto 60px auto;
     overflow: hidden;
     background: #fff;
     border-radius: 4px
 }
 
 .project-image {
-    float: left
+    float: left;
 }
 
 .project-info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
-    padding: 15px
+    margin-left: 400px;
+    padding: 5px
 }
 
-.project-info h3 {
+.project-info div {
+    float: left;
+}
+
+.project-info-title h1 {
+    float: left;
+    font-size: 2.7em;
+    font-weight: 400;
+    color: rgba(56, 173, 169, 1);
+
+    /*color: #374054;*/
+    margin: 0 0 0 0
+}
+
+
+.project-info-title h3 {
+    float: left;
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: 400;
     color: #374054;
     /*color: #374054;*/
-    margin: 0 0 15px 0
+    margin: 18px 10px 8px 40px
 }
 
-.project-info p {
-    color: #74808a;
-    margin: 0 0 15px 0;
-    font-size: 0.9em
+
+.project-info-row p{
+    color: #374054;
+    margin: 4px 10px 5px 0;
+    text-align: left;
+    font-size: 1em
 }
+
+.project-info-row span {
+    color: rgba(7, 153, 146, 1.0);
+}
+
 
 .no-image .project-info {
     position: relative;

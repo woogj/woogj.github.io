@@ -548,12 +548,11 @@ footer {
 
 #projects h2 {
     color: rgba(99, 110, 114,1.0);
-    /*color: #374054;*/
     margin-bottom: 50px
 }
 
+
 .project {
-    position: relative;
     max-width: 900px;
     margin: 5px auto 60px auto;
     overflow: hidden;
@@ -563,58 +562,53 @@ footer {
 
 .project-image {
     float: left;
+    max-width: 900px;
+}
+
+.project-image img{
+    margin-top: 30px;
+}
+
+.title{
+    margin: 0 0 10px 380px;
+    height: auto;
+    text-align: left;
+}
+
+#project-no {
+    font-size: 2.3em;
+    font-weight: 400;
+    color: rgba(56, 173, 169, 1);
+}
+
+#project-name {
+    font-size: 2.2em;
+    font-weight: 400;
+    color: #374054;
+    margin: 10px 10px 15px 25px
 }
 
 .project-info {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 400px;
-    padding: 5px
-}
-
-.project-info div {
-    float: left;
-}
-
-.project-info-title h1 {
-    float: left;
-    font-size: 2.7em;
-    font-weight: 400;
-    color: rgba(56, 173, 169, 1);
-
-    /*color: #374054;*/
-    margin: 0 0 0 0
-}
-
-
-.project-info-title h3 {
-    float: left;
-    font-size: 1.5em;
-    font-weight: 400;
-    color: #374054;
-    /*color: #374054;*/
-    margin: 18px 10px 8px 40px
-}
-
-
-.project-info-row p{
-    color: #374054;
-    margin: 4px 10px 5px 0;
+    margin-left: 380px;
+    height: auto;
     text-align: left;
-    font-size: 1em
 }
 
-.project-info-row span {
+.point div{
+    display: inline;
+    color: #374054;
+    margin: 5px 10px 5px 3px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.title div{
+    max-width: 100px;
+    display: inline;
+}
+
+.project-info span {
     color: rgba(7, 153, 146, 1.0);
-}
-
-
-.no-image .project-info {
-    position: relative;
-    margin: 0;
-    padding: 30px 15px;
-    transform: none
 }
 
 #more-projects {
@@ -869,17 +863,36 @@ footer {
         float: none
     }
 
+    #projects h2 {
+        margin-bottom: 20px;
+    }
     .project-image {
         display: none
+    }
+
+    .title{
+        text-align: center;
+        margin: 0 0 15px 0;
+    }
+
+    #project-no {
+        font-size: 2.1em;
+        padding-top: 20px ;
+    }
+
+    #project-name {
+        margin: 0 0 0 20px;
     }
 
     .project-info {
         position: relative;
         margin: 0;
-        padding: 30px 15px;
         top: auto;
-        transform: none
+        transform: none;
+        vertical-align: middle;
+        text-align: center;
     }
+
 
     footer {
         text-align: center
@@ -902,5 +915,14 @@ footer {
     #lead-content a {
         font-size: 0.9em;
         padding: 5px 10px
+    }
+
+
+    #project-no {
+        font-size: 1.5em;
+    }
+
+    #project-name {
+        font-size: 1.4em;
     }
 }

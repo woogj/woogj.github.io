@@ -5,20 +5,20 @@
     <title>Text Parser</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="textparser.css" rel="stylesheet">
+    <link rel="stylesheet" href="../libs/font-awesome/css/font-awesome.min.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/textparser.css" rel="stylesheet">
 </head>
 <body>
     <main class="main">
         <h1 class="app-name">Text Parser</h1>
         <h3 class="app-description">The module parses text in sentence units.</h3>
-        <textarea class="app-textarea"
+        <textarea id="app-textarea"
                   autofocus="autofocus"
                   maxlength="250"
                   placeholder="Enter your text here"
                   spellcheck="true"></textarea>
-        <button class="btn">Run Parser</button>
+        <button class="btn" onclick="runParser()">Run Parser</button>
         <div class="app-output"></div>
 
     </main>
@@ -27,5 +27,7 @@
     </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/scripts.min.js"></script>
+<script src="../js/scripts.min.js"></script>
+<script src="../js/textparser.js"></script>
+<
 </body>
